@@ -123,14 +123,14 @@ body,html{
     padding: 24px;
 }
 
-.sidebar-content{
+.logo , .sidebar-content{
     margin-bottom: 30px;
     display: flex;
     gap: 18px;
 }
 
 .logo{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
 }
 
