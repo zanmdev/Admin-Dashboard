@@ -117,9 +117,22 @@ body,html{
     flex-direction: column;
     background-color: #0091E8;
     color: white;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 45px;
+    padding: 24px;
 }
 
+.sidebar-content{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 18px;
+}
 
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+}
 
 
 
