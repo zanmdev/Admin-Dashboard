@@ -1,3 +1,3 @@
 # Admin-Dashboard
 
-A project to create an Admin Dashboard as a way to practice using CSS-Grid. 
+A project to create an Admin Dashboard from a design as a way to practice creating a webpage using CSS-Grid and Flexbox. 
