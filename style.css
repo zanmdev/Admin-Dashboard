@@ -2,10 +2,12 @@ body,html{
     height: 100%;
     margin: 0;
 }
-/* Outline for layout clarity */
+
+/* Outline for layout clarity 
 .container > div {
-    /* outline: 1px solid black;*/
+ outline: 1px solid black;
 }
+*/
 
 
 /* Page Container  */ 
