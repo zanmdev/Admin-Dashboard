@@ -1,3 +1,8 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 body,html{
     height: 100%;
     margin: 0;
@@ -53,11 +58,17 @@ body,html{
     border: 0;
 }
 
+#search:hover{
+    background-color: #dad1d1;
+}
+
+
 
 .profile-box{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    margin-right: 3px;
 }
 
 .profile-welcome{
@@ -129,6 +140,10 @@ body,html{
     gap: 18px;
 }
 
+.sidebar-content:hover{
+    background-color: #085280; ;
+}
+
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -150,13 +165,21 @@ body,html{
     
 }
 
+/*Project Cards    */
+.projects-header{
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .cards{
     grid-row: 2/5;
     display: grid;
-    padding: 15px;
+    padding: 61px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap:15px;
-    margin-top: 24px;
+    
 }
 
 .card{
@@ -166,10 +189,15 @@ body,html{
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(134, 129, 129);
     border-left: 10px solid rgb(255, 179, 0);
-
+    padding:20px;
 
 }
 
+.project-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Trending and Announcements  */
 .trending, .announcements{
     grid-column: 2/3;
     padding: 20px;
@@ -178,6 +206,36 @@ body,html{
     margin: 35px;
     border-radius: 18px;
     box-shadow: 3px 3px 5px rgb(134, 129, 129);
+
+}
+
+.announce-header , .trending-header{
+    padding-left: 40px;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.announce-header{
+    padding-top:50px;
+}
+
+.announcements{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.announce-title{
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -187,6 +245,7 @@ body,html{
     gap: 10px;
 }
 
+/*Profile picture */
 .profile{
     border-radius: 50%;
 }
